@@ -8,6 +8,8 @@ title: 'Lessn More - A URL Shortener'
 
 Our instance is installed in the root directory of the ncmls.org vhost on [web1](../vms/web1.html). It handles URL's off of http://ncmls.org but ignores http://www.ncmls.org/\*. URLs that don't match known slugs are then passed onto the [Drupal install](drupal.html).
 
+Our instance can now be found as a fork on GitHub [here](https://github.com/lifeandscience/lessnmore).
+
 ## Sites ##
 
 * ncmls.org/&lt;slug> ([lessn](http://ncmls.org/lessn) is a good example)
