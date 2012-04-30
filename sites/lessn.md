@@ -13,6 +13,7 @@ Our instance can now be found as a fork on GitHub [here](https://github.com/life
 ## Sites ##
 
 * ncmls.org/&lt;slug> ([lessn](http://ncmls.org/lessn) is a good example)
+* [github.com/lifeandscience/lessnmore](https://github.com/lifeandscience/lessnmore) - the GitHub repo
 
 ## Server ##
 
