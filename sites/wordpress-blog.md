@@ -20,3 +20,14 @@ The Wordpress instance is hosted on [blog1](../vms/blog1.html).
 ## Database ##
 
 This Wordpress instance uses the 'wpmu' MySQL database hosted by [db1](../vms/db1.html).
+
+## Development Environment ##
+
+A development environment exists at [dev.blogs.ncmls.org](http://dev.blogs.ncmls.org). It is hosted on blog1 also.
+
+To sync up the dev instance from production, follow these steps:
+
+1. Run migrate.sh which exists one directory above the webroot.
+2. Adjust the permissions of migrateDB.php within the webroot to make it web-accessible (chmod 755 migrateDB.php)
+3. Visit the DB Migration script in a browser ([dev.blogs.ncmls.org/migrateDB.php](http://dev.blogs.ncmls.org/migrateDB.php)) and follow the steps to replace instances of 'blogs.ncmls.org' with 'dev.blogs.ncmls.org'. 
+4. Adjust the permissions of migrateDB.php to make it inaccessible again (chmod 000 migrateDB.php).
